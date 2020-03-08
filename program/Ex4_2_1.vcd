@@ -1,0 +1,36 @@
+$date
+	Thu Nov 07 22:34:37 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Exper4_2_1 $end
+$scope module e4_2_1 $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var reg 1 # cout $end
+$var reg 1 $ sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#20000
+1$
+1!
+#40000
+1"
+0!
+#60000
+1#
+0$
+1!
+#80000

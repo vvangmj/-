@@ -1,0 +1,40 @@
+$date
+	Wed Oct 09 17:01:46 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Exper2_1 $end
+$scope module e2_1 $end
+$var wire 3 ! in [2:0] $end
+$var reg 8 " out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 "
+b0 !
+$end
+#5
+b10 "
+b1 !
+#10
+b1 "
+b0 !
+#15
+b100 "
+b10 !
+#20
+b1 "
+b0 !
+#25
+b10000 "
+b100 !
+#30
+b1 "
+b0 !
+#35

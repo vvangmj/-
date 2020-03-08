@@ -1,0 +1,66 @@
+#! /usr/local/iverilog/bin/vvp
+:ivl_version "11.0 (devel)" "(s20150603-642-g3bdb50da)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "vhdl_textio";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0000000000842510 .scope module, "Exper3_2" "Exper3_2" 2 17;
+ .timescale -9 -12;
+v0000000000872b30_0 .var "clk", 0 0;
+v0000000000872950_0 .var "in", 5 0;
+v0000000000873030_0 .net "out", 5 0, v0000000000872bd0_0;  1 drivers
+S_00000000008426a0 .scope module, "e3_2" "loop_register" 2 22, 2 2 0, S_0000000000842510;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 6 "in";
+    .port_info 2 /OUTPUT 6 "out";
+v0000000000876d10_0 .net "clk", 0 0, v0000000000872b30_0;  1 drivers
+v0000000000872770_0 .net "in", 5 0, v0000000000872950_0;  1 drivers
+v0000000000872bd0_0 .var "out", 5 0;
+E_00000000008746b0 .event posedge, v0000000000876d10_0;
+    .scope S_00000000008426a0;
+T_0 ;
+    %wait E_00000000008746b0;
+    %load/vec4 v0000000000872770_0;
+    %parti/s 1, 0, 2;
+    %load/vec4 v0000000000872770_0;
+    %parti/s 5, 1, 2;
+    %concat/vec4; draw_concat_vec4
+    %assign/vec4 v0000000000872bd0_0, 0;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_0000000000842510;
+T_1 ;
+    %delay 10000, 0;
+    %load/vec4 v0000000000872b30_0;
+    %inv;
+    %store/vec4 v0000000000872b30_0, 0, 1;
+    %delay 10000, 0;
+    %load/vec4 v0000000000872b30_0;
+    %inv;
+    %store/vec4 v0000000000872b30_0, 0, 1;
+    %jmp T_1;
+    .thread T_1;
+    .scope S_0000000000842510;
+T_2 ;
+    %vpi_call 2 33 "$dumpfile", "Ex3_2.vcd" {0 0 0};
+    %vpi_call 2 34 "$dumpvars", 32'sb00000000000000000000000000000000, S_00000000008426a0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000000000872b30_0, 0, 1;
+    %pushi/vec4 54, 0, 6;
+    %store/vec4 v0000000000872950_0, 0, 6;
+    %delay 100000, 0;
+    %pushi/vec4 10, 0, 6;
+    %store/vec4 v0000000000872950_0, 0, 6;
+    %delay 100000, 0;
+    %vpi_call 2 38 "$finish" {0 0 0};
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "Exper3_2.v";

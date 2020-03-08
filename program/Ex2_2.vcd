@@ -1,0 +1,70 @@
+$date
+	Wed Oct 09 17:09:56 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Exper2_2 $end
+$scope module e2_2 $end
+$var wire 8 ! in [7:0] $end
+$var reg 3 " out [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx "
+b0 !
+$end
+#2
+b0 "
+b1 !
+#4
+bx "
+b0 !
+#6
+b1 "
+b10 !
+#8
+bx "
+b0 !
+#10
+b10 "
+b100 !
+#12
+bx "
+b0 !
+#14
+b11 "
+b1000 !
+#16
+bx "
+b0 !
+#18
+b100 "
+b10000 !
+#20
+bx "
+b0 !
+#22
+b101 "
+b100000 !
+#24
+bx "
+b0 !
+#26
+b110 "
+b1000000 !
+#28
+bx "
+b0 !
+#30
+b111 "
+b10000000 !
+#32
+bx "
+b0 !
+#34

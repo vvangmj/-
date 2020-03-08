@@ -1,0 +1,109 @@
+$date
+	Sat Jan 11 17:10:31 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Exper9 $end
+$scope module e9 $end
+$var wire 32 ! D [31:0] $end
+$var wire 1 " IRWr $end
+$var wire 5 # Rd [4:0] $end
+$var wire 5 $ Rs [4:0] $end
+$var wire 5 % Rt [4:0] $end
+$var wire 5 & Sa [4:0] $end
+$var wire 26 ' address [25:0] $end
+$var wire 1 ( clk $end
+$var wire 6 ) func [5:0] $end
+$var wire 16 * immediate [15:0] $end
+$var wire 1 + rst $end
+$var reg 26 , addr_1 [25:0] $end
+$var reg 6 - func_1 [5:0] $end
+$var reg 16 . inns [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 .
+b0 -
+b0 ,
+1+
+b0 *
+b0 )
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+0"
+b111110101101000011110000000000 !
+$end
+#10
+1"
+0+
+#30
+bz '
+bz ,
+bz *
+bz .
+b10000 &
+b111 #
+b10100 %
+b10101 $
+1(
+#60
+0(
+#90
+1(
+#110
+b1010111111000001110001110001111 !
+#120
+0(
+#150
+b1110001110001111 *
+b1110001110001111 .
+bz )
+bz -
+bz &
+bz #
+b0 %
+b11111 $
+1(
+#180
+0(
+#210
+b10110101011101001101010101 '
+b10110101011101001101010101 ,
+bz *
+bz .
+b0zzzzz )
+b0zzzzz -
+bz %
+bz $
+1(
+b10000010110101011101001101010101 !
+#240
+0(
+#270
+1(
+#300
+0(
+#330
+1(
+#360
+0(
+#390
+1(
+#420
+0(
+#450
+1(
+#480
+0(
+#510
+1(

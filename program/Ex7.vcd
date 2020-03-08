@@ -1,0 +1,137 @@
+$date
+	Fri Jan 03 18:58:12 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Exper7 $end
+$scope module e7 $end
+$var wire 1 ! L_S $end
+$var wire 4 " R_addr_A [3:0] $end
+$var wire 4 # R_addr_B [3:0] $end
+$var wire 4 $ Wt_addr [3:0] $end
+$var wire 4 % Wt_data [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' cs $end
+$var wire 1 ( rd $end
+$var wire 1 ) rst $end
+$var wire 1 * rstm $end
+$var wire 1 + wrt $end
+$var wire 4 , rdata_B [3:0] $end
+$var wire 4 - rdata_A [3:0] $end
+$var wire 4 . mdata_out [3:0] $end
+$var wire 4 / data_out [3:0] $end
+$scope module memo $end
+$var wire 1 & clk $end
+$var wire 1 ' cs $end
+$var wire 4 0 data_out [3:0] $end
+$var wire 1 ( rd $end
+$var wire 1 * rst $end
+$var wire 1 + wrt $end
+$var wire 4 1 data_in [3:0] $end
+$var wire 4 2 addr [3:0] $end
+$var reg 4 3 data [3:0] $end
+$var integer 32 4 i [31:0] $end
+$upscope $end
+$scope module regi $end
+$var wire 1 ! L_S $end
+$var wire 4 5 R_addr_A [3:0] $end
+$var wire 4 6 R_addr_B [3:0] $end
+$var wire 4 7 Wt_addr [3:0] $end
+$var wire 4 8 Wt_data [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ) rst $end
+$var wire 4 9 rdata_B [3:0] $end
+$var wire 4 : rdata_A [3:0] $end
+$var integer 32 ; i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010 ;
+bx :
+bx 9
+b111 8
+b11 7
+bx 6
+bx 5
+b1111 4
+bx 3
+bx 2
+bx 1
+bx 0
+bz /
+bx .
+bx -
+bx ,
+0+
+1*
+1)
+0(
+z'
+0&
+b111 %
+b11 $
+bx #
+bx "
+0!
+$end
+#10
+0*
+0)
+1!
+#50
+bz .
+bz 0
+bz 3
+1&
+#80
+b101 $
+b101 7
+b100 %
+b100 8
+#100
+0&
+#150
+1&
+#180
+b100 ,
+b100 1
+b100 9
+b111 -
+b111 2
+b111 :
+b101 #
+b101 6
+b11 "
+b11 5
+1+
+#200
+0&
+#250
+1&
+#280
+1(
+0+
+#300
+0&
+#350
+b100 /
+b100 .
+b100 0
+b100 3
+1&
+#400
+0&
+#450
+1&
+#500
+0&
+#550
+1&
+#580

@@ -1,0 +1,103 @@
+$date
+	Wed Dec 18 16:50:12 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Exper8 $end
+$scope module e8 $end
+$var wire 32 ! alu_a [31:0] $end
+$var wire 32 " alu_b [31:0] $end
+$var wire 5 # alu_op [4:0] $end
+$var wire 1 $ clk $end
+$var reg 32 % alu_out [31:0] $end
+$var reg 64 & alu_out2 [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+bx %
+1$
+bx #
+bx "
+bx !
+$end
+#50
+0$
+#65
+b1 #
+b10010 "
+b100101 !
+#100
+b110111 %
+1$
+#150
+0$
+#165
+b1001 #
+#200
+b1001010 %
+1$
+#250
+0$
+#265
+b10 #
+#300
+b10011 %
+1$
+#350
+0$
+#365
+b11 #
+#400
+b0 %
+1$
+#450
+0$
+#465
+b100 #
+#500
+b110111 %
+1$
+#550
+0$
+#565
+b101 #
+#600
+1$
+#650
+0$
+#665
+b110 #
+#700
+b11111111111111111111111111001000 %
+1$
+#750
+0$
+#765
+b111 #
+#800
+b1010011010 &
+1$
+#850
+0$
+#865
+b1000 #
+#900
+b10 %
+1$
+#950
+0$
+#965
+b1001 #
+#1000
+b1001010 %
+1$
+#1050
+0$
+#1065
