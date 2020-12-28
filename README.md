@@ -1,4 +1,4 @@
-# Research on Computer System Construction and Performance Improvement Method Based on GEM5
+# Single-cycle CPU design based on MIPS instruction set
 Component Organization and Architecture Laboratory
 design a simple single cycle CPU using verilog
 
