@@ -1,4 +1,4 @@
-# 计算机组成实验
+# Computer Component Experiment
 language：verilog  environ：iverilog
 
 
